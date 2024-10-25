@@ -1,0 +1,109 @@
+[{
+    "id": 1,
+    "name": "từ Sài Gòn đến Bình Dương",
+    "from":"Sài Gòn",
+    "to":"Bình Dương",
+    "start":"07:00",
+    "end":"08:00",
+    "price": "100,000đ",
+    "image": "../image/xe1.jpeg"
+},{
+    "id": 2,
+    "name": "từ Bình Dương đến Sài Gòn",
+    "from":"Bình Dương",
+    "to":"Sài Gòn",
+    "start":"07:30",
+    "end":"08:30",
+    "price": "100,000đ",
+    "image": "../image/xe1.jpeg"
+},{
+    "id": 3,
+    "name": "từ Sài Gòn đến Bình Phước",
+    "from":"Sài Gòn",
+    "to":"Bình Phước",
+    "start":"09:00",
+    "end":"10:30",
+    "price": "150,000đ",
+    "image": "../image/xe2.jpeg"
+},{
+    "id": 4,
+    "name": "từ Bình Phước đến Sài Gòn",
+    "from":"Bình Phước",
+    "to":"Sài Gòn",
+    "start":"06:00",
+    "end":"07:30",
+    "price": "150,000đ",
+    "image": "../image/xe2.jpeg"
+},{
+    "id": 5,
+    "name": "từ Sài Gòn đến Đồng Nai",
+    "from":"Sài Gòn",
+    "to":"Đồng Nai",
+    "start":"05:00",
+    "end":"06:15",
+    "price": "120,000đ",
+    "image": "../image/xe3.jpeg"
+},{
+    "id": 6,
+    "name": "từ Đồng Nai đến Sài Gòn",
+    "from":"Đồng Nai",
+    "to": "Sài Gòn",
+    "start": "13:00",
+    "end": "14:15",
+    "price": "120,000đ",
+    "image": "../image/xe3.jpeg"
+},{
+    "id": 7,
+    "name": "từ Bình Dương đến Bình Phước",
+    "from": "Bình Dương",
+    "to": "Bình Phước",
+    "start": "14:00",
+    "end": "15:00",
+    "price":"80,000đ",
+    "image": "../image/xe1.jpeg"
+},{
+    "id": 8,
+    "name": "từ Bình Phước đến Bình Dương",
+    "from": "Bình Phước",
+    "to": "Bình Dương",
+    "start":"05:45",
+    "end": "06:45",
+    "price": "80,000đ",
+    "image": "../image/xe2.jpeg"
+},{
+    "id": 9,
+    "name": "từ Bình Phước đến Đồng Nai",
+    "from":"Bình Phước",
+    "to":"Đồng Nai",
+    "start":"08:30",
+    "end":"09:45",
+    "price":"120,000đ",
+    "image": "../image/xe3.jpeg"
+},{
+    "id": 10,
+    "name": "từ Đồng Nai đến Bình Phước",
+    "from":"Đồng Nai",
+    "to":"Bình Phước",
+    "start":"13:30",
+    "end":"14:45",
+    "price": "120,000đ",
+    "image": "../image/xe1.jpeg"
+},{
+    "id": 11,
+    "name": "từ Đà Lạt đến Sài Gòn",
+    "from":"Đà Lạt",
+    "to":"Sài Gòn",
+    "start":"09:00",
+    "end":"13:00",
+    "price": "200,000đ",
+    "image": "../image/xe2.jpeg"
+},{
+    "id": 12,
+    "name": "từ Sài Gòn đến Đà Lạt",
+    "from":"Sài Gòn",
+    "to":"Đà Lạt",
+    "start":"14:15",
+    "end":"18:15",
+    "price": "200,000đ",
+    "image": "../image/xe3.jpeg"
+}]

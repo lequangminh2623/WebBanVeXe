@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="../css/css_feedback.css" />
+    <script
+      src="https://kit.fontawesome.com/7b5f3bf574.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../image/favicon.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="../js/js_feedback.js"></script>
+  </head>
+  <body>
+    <button id="top" ><i class="fa-solid fa-chevron-up"></i></button>
+    <header>
+      <nav>
+        <a class="logo" href="index.html">Ticket<sup>&reg;</sup></a>
+        <ul class="menu">
+          <div id="cancelbtn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li><a href="../html/index.html">trang chủ</a></li>
+            <li><a href="../html/buy-ticket.html">mua vé</a></li>
+            <li><a href="../html/about-us.html">về chúng tôi</a></li>
+            <li><a href="../html/feedback.html">góp ý</a></li>
+            <li>
+              <a href="../html/login.html">
+                <button class="btnLogin">Log in/out</button>
+              </a>
+            </li>
+        </ul>
+        <div id="menubtn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="banner"></div>
+    <main class="container">
+      <div class="commentField">
+        <div class="commentBox">
+          Đánh giá:
+          <div class="stars">
+            <input type="radio" name="rate" id="5stars" />
+            <label for="5stars" class="fa-solid fa-star"></label>
+            <input type="radio" name="rate" id="4stars" />
+            <label for="4stars" class="fa-solid fa-star"></label>
+            <input type="radio" name="rate" id="3stars" />
+            <label for="3stars" class="fa-solid fa-star"></label>
+            <input type="radio" name="rate" id="2stars" />
+            <label for="2stars" class="fa-solid fa-star"></label>
+            <input type="radio" name="rate" id="1star" />
+            <label for="1star" class="fa-solid fa-star"></label>
+          </div>
+          <div class="textarea">
+            <textarea
+              id="textArea"
+              cols="5"
+              rows="3"
+              placeholder="Leave a comment..."
+            ></textarea>
+          </div>
+          <div class="submit">
+            <button class="btn">Post</button>
+          </div>
+        </div>
+        Bình luận:
+        <div id="comments">
+          <div class="comment">
+            <img class="pic" src="../image/login.jpg" alt="user-avatar" />
+            <div>
+              <div class="name">Ẩn danh</div>
+              <div class="starRate">2stars</div>
+              <div class="say">Trải nghiệm hơi tệ</div>
+            </div>
+          </div>
+          <div class="comment">
+            <img class="pic" src="../image/login.jpg" alt="user-avatar" />
+            <div>
+              <div class="name">Ẩn danh</div>
+              <div class="starRate">5stars</div>
+              <div class="say">Rất tuyệt vời!</div>
+            </div>
+          </div>
+          <div class="comment">
+            <img class="pic" src="../image/login.jpg" alt="user-avatar" />
+            <div>
+              <div class="name">Ẩn danh</div>
+              <div class="starRate">3stars</div>
+              <div class="say">Tôi không hài lòng lắm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>&copy;copyright 2023 Công Ty Du Lịch Ticket</p>
+        <p>Địa chỉ: số 371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, TP.HCM.</p>
+        <p>Điện Thoại : +84 456 123 789</p>
+        <p>Fax: +84 12349876</p>
+        <p>Giấy chứng nhận đăng ký doanh nghiệp, mã số doanh nghiệp: 0000000001, đăng ký lần đầu ngày 01/01/2023, đăng ký thay đổi lần thứ 2 ngày 01/06/2023, cấp bởi Sở KHĐT thành phố Hồ Chí Minh.</p>
+        <img src="../image/footer_1.webp" alt="">
+        <img src="../image/footer_2.webp" alt="">
+      </div>
+    </footer>
+  </body>
+</html>
